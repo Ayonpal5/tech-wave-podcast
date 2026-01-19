@@ -1,0 +1,145 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-width: 1920px;
+    height: 92px;
+    background-color:#1A0B2E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.techhead{
+    max-width: 219px;
+}
+ul{
+    max-width: 218px;
+    display: flex;
+    justify-content: space-a;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+.Subs{
+    max-width:150px;
+    background:linear-gradient(to right,#F7E93F,#FB09B4,#9100F8) ;
+    border-radius: 50px;
+    border: none;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    cursor: pointer;
+}
+.right_arrow{
+    color: white;
+}
+.wave{
+        background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+            background-clip: text;
+            color: transparent;
+}
+.banner{
+    width: 1920px;
+    height: 800px;
+    background-image: url(./assets/hero-bg.png);
+    border-top: 1px solid #412567 ;
+}
+.circle{
+    max-width: 550px;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:101px ;
+    margin: 0 auto;
+    padding-left:200px;
+    padding-right: 525px;
+}
+.first{
+    max-width: 350px;
+    height: 350px;
+}
+.secound{
+    max-width: 118px;
+    height: 180px;
+    position: relative;
+        bottom: 290px;
+        right: 5px;
+}
+.new{
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+    position: relative;
+    left: 130px;
+    bottom: 505px;
+    box-shadow: 0 0 30px #00FF88;
+} 
+.textbox{
+    width:550px ;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 150px;
+    
+}
+.textbox h2{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.textbox p{
+    color: aliceblue;
+}
+.btns{
+    
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.subsc{
+
+    max-width:190px;
+    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border-radius: 50px;
+    border: none;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    cursor: pointer;
+}
+.msg{
+    max-width: 147px;
+    height: 44px;
+    background: none;
+    border: 2px solid #00FF88;
+    color: #00FF88;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+}
