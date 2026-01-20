@@ -1,29 +1,29 @@
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
-*{
+ *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
+header {
     max-width: 1920px;
     margin: 0 auto;
 }
-nav{
-    width: 1920px;
+nav {
+    max-width: 1920px;
     height: 92px;
-    background-color:#1A0B2E;
+    background-color: #1A0B2E;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.techhead{
+.techhead {
     max-width: 219px;
 }
-ul{
+ul {
     max-width: 218px;
     display: flex;
     justify-content: space-a;
@@ -31,61 +31,62 @@ ul{
     gap: 32px;
     align-items: center;
 }
-ul a{
+ul a {
     color: white;
     text-decoration: none;
 }
-.Subs{
-    max-width:150px;
-    background:linear-gradient(to right,#F7E93F,#FB09B4,#9100F8) ;
+.Subs {
+    max-width: 150px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
     border-radius: 50px;
     border: none;
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     cursor: pointer;
 }
-.right_arrow{
+.right_arrow {
     color: white;
 }
-.wave{
-        background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
-            background-clip: text;
-            color: transparent;
+
+.wave {
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    color: transparent;
 }
-.banner{
+.banner {
     width: 1920px;
     height: 800px;
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 1px solid #412567 ;
+    border-top: 1px solid #412567;
 }
-.circle{
+.circle {
     max-width: 550px;
-    height:800px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top:200px ;
+    padding-top: 200px;
     margin: 0 auto;
-    padding-left:550px;
+    padding-left: 550px;
     padding-right: 525px;
 }
-.first .cir{
-    width:450px;
+.first .cir {
+    width: 450px;
     height: 450px;
 }
-.secound{
+.secound {
     max-width: 118px;
     height: 180px;
     position: relative;
-        bottom: 290px;
-        right: 5px;
+    bottom: 290px;
+    right: 5px;
 }
-.new{
+.new {
     width: 75px;
     height: 38px;
     background-color: #00FF88;
@@ -95,62 +96,62 @@ ul a{
     border-radius: 50px;
     position: relative;
     left: 130px;
-    /* bottom: 10px; */
     top: -600px;
     box-shadow: 0 0 30px #00FF88;
-} 
-.textbox{
-    width:550px ;
+}
+.box {
+    width: 550px;
     height: 168px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
     position: relative;
-    bottom: 150px;
-    
+    bottom: 350px;
 }
-.textbox h2{
+.textbox{
+    width: 550px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.textbox h2 {
     color: white;
     font-size: 50px;
-    display: flex;
-    justify-content: center;
 }
-.textbox p{
+.textbox p {
     color: aliceblue;
 }
-.btns{
-    
+.btns {
     display: flex;
     justify-content: center;
     gap: 8px;
 }
-.subsc{
-
-    max-width:190px;
-    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+.subsc {
+    max-width: 190px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
     border-radius: 50px;
     border: none;
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     cursor: pointer;
 }
-.msg{
+.msg {
     max-width: 147px;
     height: 44px;
     background: none;
     border: 2px solid #00FF88;
     color: #00FF88;
-        border-radius: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        cursor: pointer;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
 }
-.about{
+.about {
     max-width: 1920px;
     height: 800px;
     background-color: #1A0B2E;
@@ -158,33 +159,32 @@ ul a{
     text-align: center;
     border: none;
 }
-.container{
+.container {
     width: 1500px;
     height: 400px;
     padding-top: 80px;
     margin: 0 auto;
 }
-.container h2{
+.container h2 {
     color: #ffffff;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 50px;
 }
-.content{
+.content {
     color: #ffffff;
     padding-bottom: 20px;
 }
-.des{
+.des {
     color: #ffffff;
 }
-hr{
+hr {
     width: 1200px;
     border: 1px solid #301455;
     margin: 0 auto;
-
 }
-.ratings{
+.ratings {
     width: 1500px;
     height: 400px;
     display: flex;
@@ -194,36 +194,37 @@ hr{
     margin: 0 auto;
     gap: 80px;
 }
-.ratings h1{
+.ratings h1 {
     color: #00FF88;
     font-weight: 900;
     font-size: 80px;
 
 }
-.ratings p{
+.ratings p {
     color: #ffffff;
     font-size: 20px;
 }
-article{
-    max-width:1920px;
+
+article {
+    max-width: 1920px;
     height: 1121px;
     background-color: #230E3D;
     margin: 0 auto;
 }
-.heading{
+.heading {
     max-width: 1200px;
     height: 58px;
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
 }
-.heading h1{
+.heading h1 {
     padding: 80px;
     height: 58px;
     font-size: 50px;
     font-weight: bold;
 }
-.grid{
+.grid {
     padding-top: 100px;
     max-width: 1920px;
     display: grid;
@@ -232,62 +233,60 @@ article{
     gap: 24px;
     margin-left: 200px;
     margin-right: 200px;
-
 }
-.box1,.box2,.box3,.box4,.box5{
-    /* background-color: #35116593; */
+.box1,.box2,.box3,.box4,.box5 {
     padding: 24px;
     color: #ffffff;
     background-color: #00FF88;
     border-radius: 24px;
 }
-.box1{
+.box1 {
     background-color: #35116593;
     grid-row: span 2;
 }
-.box2{
+.box2 {
     background-color: #35116593;
     grid-column: span 2;
 }
-.box3{
+.box3 {
     background-color: #35116593;
     grid-column: span 2;
 }
-.box4{
+.box4 {
     background-color: #35116593;
     grid-column: span 2;
 }
-.box5{
+.box5 {
     background-color: #35116593;
 }
-h3{
+h3 {
     padding: 30px;
     font-weight: 900;
     font-size: 24px;
 }
-.grid p{
+.grid p {
     padding: 30px;
     line-height: 24px;
     font-size: 16px;
 }
-.grid img{
+.grid img {
     margin-left: 30px;
 }
-.foote{
+.foote {
     width: 1920px;
-    height:1276px;
+    height: 1276px;
     background-color: #1A0B2E;
     margin: 0 auto;
 }
-.cards{
+.cards {
     width: 1500px;
     display: flex;
     justify-content: center;
     gap: 90px;
-    padding-top:80px ;
+    padding-top: 80px;
     margin: 0 auto;
 }
-.card1{
+.card1 {
     color: white;
     width: 500px;
     height: 600px;
@@ -295,7 +294,7 @@ h3{
     border-radius: 30px;
     overflow: hidden;
 }
-.card2{
+.card2 {
     color: white;
     width: 500px;
     height: 600px;
@@ -304,7 +303,7 @@ h3{
     border: none;
     overflow: hidden;
 }
-.card3{
+.card3 {
     color: white;
     width: 500px;
     height: 600px;
@@ -313,21 +312,21 @@ h3{
     background-color: #250D44;
     overflow: hidden;
 }
-.cards h4{
-margin: 20px 18px;
+.cards h4 {
+    margin: 20px 18px;
 }
-.cards p{
-margin: 20px 18px;
-line-height: 24px;
-font-size: 16px;
+.cards p {
+    margin: 20px 18px;
+    line-height: 24px;
+    font-size: 16px;
 }
-.cards img{
+.cards img {
     margin-left: 18px;
 }
-.cards span{
-color: #00FF88;
+.cards span {
+    color: #00FF88;
 }
-.footer-banner{
+.footer-banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,53 +336,54 @@ color: #00FF88;
     margin: 0 auto;
     border-radius: 30px;
 }
-.img-footer{
+.img-footer {
     margin-right: 123px;
 }
-.footer-content{
+.footer-content {
     width: 896px;
-    height:183px ;
+    height: 183px;
     text-align: left;
     margin-bottom: 30px;
 }
-.footer-content h3{
-    color: white ;
+.footer-content h3 {
+    color: white;
     font-size: 32px;
     font-weight: 900;
 }
-.footer-content p{
+.footer-content p {
     color: white;
-    margin-left:28px;
+    margin-left: 28px;
     line-height: 24px;
 }
-.footerh3{
+.footerh3 {
     color: white;
     text-align: center;
     font-size: 48px;
     font-weight: 900px;
     margin-top: 40px;
 }
-.icons{
+.icons {
     display: flex;
     gap: 20px;
     margin-top: 20px;
     margin-left: 30px;
 }
 @keyframes blow {
-    from{
+    from {
         padding-left: 50px;
         padding-right: 50px;
     }
-    to{
+
+    to {
         padding-bottom: 50px;
         padding-top: 50px;
     }
 }
-.secound:hover{
+.secound:hover {
     animation: blow 2s ease-in-out 2s 3 alternate;
 }
-.footer-text{
-    color:white;
+.footer-text {
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -392,25 +392,237 @@ color: #00FF88;
     height: 412px;
     background-image: url(./assets/footer-bg.png);
     margin: 0 auto;
-    
 }
-.logos{
+.logos {
     width: 544px;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    margin-right:328px;
-    margin-top:80px;
+    margin-right: 328px;
+    margin-top: 80px;
 }
-.footerh2{
+.footerh2 {
     font-size: 80px;
     margin-right: 500px;
     gap: 20px;
 }
-.footer-span{
+.footer-span {
     width: 1360px;
     height: 24px;
     text-align: center;
     margin-right: 380px;
     margin-top: 80px;
+}
+@media screen and (max-width: 576px) {
+    * {
+        max-width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    header,nav,.banner,.about,article,.foote,.footer-text {
+        width: 100%;
+        margin: 0;
+    }
+    nav {
+        flex-direction: column;
+        height: auto;
+        gap: 12px;
+        padding: 16px 0;
+        background-image: url(./assets/hamburger-menu.png);
+        background-size: 23px 23px;
+        background-repeat: no-repeat;
+        background-position: 468px;
+    }
+    ul {
+        flex-direction: column;
+        gap: 12px;
+        display: none;
+    }
+    .banner {
+        background-position: center;
+        height: auto;
+        padding: 40px 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .circle {
+        padding: 0;
+        margin: 0 auto;
+        height: auto;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+    .first .cir {
+        width: 260px;
+        height: 260px;
+    }
+
+    .secound {
+        position: absolute;
+            top: 44px;
+            left: 41%;
+            width: 90px;
+            height: auto;
+            z-index: 2;
+    }
+    .new {
+            position: absolute;
+                top: 20px;
+                right: 50%;
+                transform: translateX(175px);
+                width: 70px;
+                height: 36px;
+                font-size: 14px;
+                padding: 8px 0;
+                box-shadow: 0 0 20px #00FF88;
+                z-index: 3;
+    }
+
+    .textbox {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .textbox h2 {
+        font-size: 32px;
+    }
+
+    .textbox p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .Subs{
+       display: none;
+        color: 0;
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-image: url(./assets/hamburger-menu.png);
+        background-position: 50px;
+    }
+    .subsc,.msg {
+        width: 170px;
+        height: 44px;
+        text-align: center;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
+    .ratings {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .ratings h1 {
+        font-size: 40px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 20px;
+    }
+    .cards {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+        padding: 20px;
+    }
+    .card1,.card2,.card3 {
+        width: 100%;
+        height: auto;
+    }
+    .footer-banner {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    .img-footer {
+        margin: 0;
+    }
+    .footer-content {
+        width: 100%;
+        text-align: center;
+    }
+    .logos {
+        margin: 20px 0;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footerh2 {
+        font-size: 32px;
+        margin: 0 0 20px 0;
+    }
+
+    .footer-span {
+        margin: 20px 0 0;
+        text-align: center;
+        line-height: 18px;
+    }
+        .foote {
+            height: auto;
+            padding: 60px 16px;
+        }
+    
+        .footerh3 {
+            font-size: 36px;
+            margin: 0 0 30px 0;
+        }
+        .cards {
+            padding-top: 0;
+        }
+    
+        .card1,
+        .card2,
+        .card3 {
+            border-radius: 24px;
+            padding-bottom: 24px;
+        }
+    
+        .cards img {
+            margin: 0 auto;
+            display: block;
+        }
+    
+        .cards h4 {
+            text-align: center;
+            margin-top: 16px;
+        }
+    
+        .cards p {
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    
+        .icons {
+            justify-content: center;
+            margin: 20px 0 0;
+        }
 }
