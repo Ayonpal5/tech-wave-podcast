@@ -7,6 +7,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    max-width: 1920px;
+    margin: 0 auto;
+}
 nav{
     max-width: 1920px;
     height: 92px;
@@ -54,6 +58,8 @@ ul a{
     width: 1920px;
     height: 800px;
     background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top: 1px solid #412567 ;
 }
 .circle{
@@ -63,14 +69,14 @@ ul a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top:101px ;
+    padding-top:200px ;
     margin: 0 auto;
-    padding-left:200px;
+    padding-left:550px;
     padding-right: 525px;
 }
-.first{
-    max-width: 350px;
-    height: 350px;
+.first .cir{
+    width:450px;
+    height: 450px;
 }
 .secound{
     max-width: 118px;
@@ -89,7 +95,8 @@ ul a{
     border-radius: 50px;
     position: relative;
     left: 130px;
-    bottom: 505px;
+    /* bottom: 10px; */
+    top: -600px;
     box-shadow: 0 0 30px #00FF88;
 } 
 .textbox{
@@ -142,4 +149,58 @@ ul a{
         padding-left: 20px;
         padding-right: 20px;
         cursor: pointer;
+}
+.about{
+    max-width: 1920px;
+    height: 800px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+}
+.container{
+    width: 1500px;
+    height: 400px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+.container h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.content{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.des{
+    color: #ffffff;
+}
+hr{
+    width: 1200px;
+    border: 1px solid #301455;
+    margin: 0 auto;
+
+}
+.ratings{
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 80px;
+}
+.ratings h1{
+    color: #00FF88;
+    font-weight: 900;
+    font-size: 80px;
+
+}
+.ratings p{
+    color: #ffffff;
+    font-size: 20px;
 }
